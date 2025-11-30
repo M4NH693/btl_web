@@ -15,10 +15,14 @@
     gap: 90px;
 }
 
+.list_gt{
+    padding-left: 0;
+}
+
 .list_gt li{
     margin-bottom: 15px;
     list-style-type: none;
-    font-size: 10px;
+    font-size: 15px;
 }
 .list_gt li::before{
      content: "✔ ";
@@ -109,5 +113,10 @@
 .title{
     cursor: pointer;
 }
+
+.left_gioi_thieu_1 p{
+    font-size: 15px;
+}
+
 
 
