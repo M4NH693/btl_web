@@ -13,6 +13,8 @@
 
 <body>
     <div class="container_content_inside_card">
+
+        <!-- phần bên trái -->
         <div class="left_content_inside">
             <div class="left_gioi_thieu_1">
                 <h1>Nội dung cần thay</h1>
@@ -45,11 +47,21 @@
                 </div>
 
             </div>
-
+            <!-- đây là phần list nội dung khóa học có dropdown  -->
             <div class="list_dropdown">
-
                 <!-- 1 -->
                 <div class="list_title">
+                    <h4 class="title" onclick=" list_dropdown_f(this)"><Strong>+ </Strong>1.Giới thiệu</h4>
+                    <p>2 bài học</p>
+                </div>
+
+                <ul class="dropdown">
+                    <li>1. ReactJS là gì? Tại sao nên học ReactJS? <span>10:41</span></li>
+                    <li>2. SPA/MPA là gì? <span>22:20</span></li>
+                </ul>
+
+                <!-- 2 -->
+                   <div class="list_title">
                     <h4 class="title" onclick=" list_dropdown_f(this)"><Strong>+ </Strong>1.Giới thiệu</h4>
                     <p>2 bài học</p>
                 </div>
@@ -70,6 +82,7 @@
                
             </ul>
         </div>
+        <!-- phần bên phải  -->
         <div class="right_content_inside">
             <img src="/test/img/video-7.jpg" alt="">
             <button class="btn_right_content_inside">Xem Ngay</button>
