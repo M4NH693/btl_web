@@ -98,18 +98,15 @@
 .dropdown li{
     list-style-type: none;
     padding: 10px;
-    border-bottom: 1px solid #F5F5F5
+    border-bottom: 1px solid #F5F5F5;
+    display: flex;
+    justify-content: space-between;
 }
 
 .thoi_luong_khoa_hoc{
     margin-bottom: 10px;
 }
 
-.dropdown li{
-    display: flex;
-    justify-content: space-between;
-   
-}
 .title{
     cursor: pointer;
 }

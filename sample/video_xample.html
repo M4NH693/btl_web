@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="video_sample.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="trai">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/x0fSBAgBrOQ?si=KbrG8Fg6JoknZSPH"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="iframevd"></iframe>
+                </div>
+
+                <h1 id="noi_dung_video">ReactJS là gì? Tại sao nên học ReactJS?</h1>
+            </div>
+            <div class="phai">
+                <h4 class="phai_content">Nội dung khóa học</h4>
+
+                <div class="list_dropdown">
+                    <div class="list_title">
+                        <h4>1. Giới thiệu</h4>
+                        <div class="title" onclick="list_dropdown_f(this)"><i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                    </div>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/x0fSBAgBrOQ?si=KbrG8Fg6JoknZSPH', 'ReactJS là gì? Tại sao nên học ReactJS?')">1. ReactJS là gì? Tại sao nên học ReactJS?</a><span>10:41</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/30sMCciFIAM?si=9HrBZfeUC4wdnhwJ','SPA/MPA là gì | Khái niệm SPA | ReactJS')">2. SPA/MPA là gì?</a><span>22:20</span></li>
+                    </ul>
+
+                    <div class="list_title">
+                        <h4>2. Ôn lại ES6+</h4>
+                        <div class="title" onclick="list_dropdown_f(this)"><i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                    </div>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/9QeNLypIiZs?si=9ZUug_C9j0tFiOER','Arrow function trong JavaScript ES6 | Khái niệm arrow function')">4. Arrow function</a><span>08:37</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/WB6FQdp41hs?si=WCC85dVc4AX4hxwH', 'Enhanced object literals trong javascript ES6')">5. Enhanced object literals</a><span>05:15</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/J1m4vLDUhEI?si=kFJnsMc8HELtQdsU','Destructuring, Rest trong JavaScript ES6')">6. Destructuring, Rest</a><span>13:20</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/MJZICS7nQk8?si=gyVGd6BQHJqXZkwa','Spread operator trong JavaScript ES6')">7. Spread operator</a><span>13:57</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/08lWi4T2Bfg?si=4NMeRJqZWNIlQVse','Module trong JavaScript ES6')">8. JS modules</a><span>14:50</span></li>
+                    </ul>
+
+                    <div class="list_title">
+                        <h4>3. React, ReactDOM</h4>
+                        <div class="title" onclick="list_dropdown_f(this)"><i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="scrip_content_inside_sample.js"></script>
+</body>
+
+</html>

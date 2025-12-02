@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="trai">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/x0fSBAgBrOQ?si=KbrG8Fg6JoknZSPH"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="iframevd"></iframe>
+                </div>
+
+                <h1 id="noi_dung_video">ReactJS là gì? Tại sao nên học ReactJS?</h1>
+            </div>
+            <div class="phai">
+                <h4 class="phai_content">Nội dung khóa học</h4>
+
+                <div class="list_dropdown">
+                    <div class="list_title">
+                        <h4>1. Giới thiệu</h4>
+                        <div class="title" onclick="list_dropdown_f(this)"><i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                    </div>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/x0fSBAgBrOQ?si=KbrG8Fg6JoknZSPH', 'ReactJS là gì? Tại sao nên học ReactJS?')">1. ReactJS là gì? Tại sao nên học ReactJS?</a><span>10:41</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/30sMCciFIAM?si=9HrBZfeUC4wdnhwJ','SPA/MPA là gì | Khái niệm SPA | ReactJS')">2. SPA/MPA là gì?</a><span>22:20</span></li>
+                    </ul>
+
+                    <div class="list_title">
+                        <h4>2. Ôn lại ES6+</h4>
+                        <div class="title" onclick="list_dropdown_f(this)"><i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                    </div>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/9QeNLypIiZs?si=9ZUug_C9j0tFiOER','Arrow function trong JavaScript ES6 | Khái niệm arrow function')">4. Arrow function</a><span>08:37</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/WB6FQdp41hs?si=WCC85dVc4AX4hxwH', 'Enhanced object literals trong javascript ES6')">5. Enhanced object literals</a><span>05:15</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/J1m4vLDUhEI?si=kFJnsMc8HELtQdsU','Destructuring, Rest trong JavaScript ES6')">6. Destructuring, Rest</a><span>13:20</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/MJZICS7nQk8?si=gyVGd6BQHJqXZkwa','Spread operator trong JavaScript ES6')">7. Spread operator</a><span>13:57</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/08lWi4T2Bfg?si=4NMeRJqZWNIlQVse','Module trong JavaScript ES6')">8. JS modules</a><span>14:50</span></li>
+                    </ul>
+
+                    <div class="list_title">
+                        <h4>3. React, ReactDOM</h4>
+                        <div class="title" onclick="list_dropdown_f(this)"><i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                    </div>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/Nno-r1Cz_-I?si=KNx23oh46qwSp4Y3','document.createElement() để làm gì | Phương thức createElement')">9. document.createElement() để làm gì?</a><span>10:02</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/5KfoXHWzcLw?si=HZUKqBy8wwhgTsIK', 'Lưu ý: React đã có phiên bản 18')">10. Lưu ý: React đã có phiên bản 18</a><span>02:56</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/SdphnMywCbo?si=OAD1objTUy7H53WV', 'Cách thêm React vào Website')">11. Cách thêm React vào Website</a><span>14:51</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/JN_SxpAujDw?si=3vGVy580CMaByna2', 'React.createElement() nữa là sao?')">12. React.createElement() nữa là sao?</a><span>14:31</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/zWOREJxiRVY?si=2p-OpScKJFJqV1LA', 'ReactDOM là gì? Tại sao phải sử dụng?')">13. ReactDOM là gì? Tại sao phải sử dụng?</a><span>11:09</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/AJ8j6_L94Bc?si=9xfahSlrx2k6Mhbf', 'Sử dụng ReactDOM phiên bản 18')">14. Sử dụng ReactDOM phiên bản 18</a><span>07:03</span>
+                        </li>
+                    </ul>
+
+                    <div class="list_title">
+                        <h4>4. JSX, Components, Props</h4>
+                        <div class="title" onclick="list_dropdown_f(this)"><i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                    </div>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/samx2yC15Pg?si=t5b27TvK9JyAaLKS', 'JSX là gì? Tại sao cần JSX?')">15. JSX là gì? Tại sao cần JSX?</a><span>15:59</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/i1cjVyIZCKs?si=u_uwv0iEmveTEP8q', 'JSX render Arrays | JSX FQA')">16. JSX render Arrays | JSX FQA</a><span>13:36</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/uGopxH14kYA?si=Co3im4ftH2NwpK4K', 'React element types')">17. React element types</a><span>14:13</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/xTvE2FuYiuXo?si=EHS9cP7V81n476db', 'Props là gì? Dùng props khi nào?')">18. Props là gì? Dùng props khi
+                                nào?</a><span>25:42</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/7jQrn1KjcEw?si=uA5PmYrtij2vDL3f', 'DOM events?')">19. DOM events?</a><span>13:58</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/5SU6P-cqoJw?si=4nVkicJ4F39OZB29', 'Quy ước đặt tên components?')">20. Quy ước đặt tên components?</a><span>26:07</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/1Bse4Lx5CP8?si=62LSF5ZOaZ1ErTUv', 'Children props? Render props?')">21. Children props? Render props?</a><span>22:05</span>
+                        </li>
+                    </ul>
+
+                    <div class="list_title">
+                        <h4>5. Create React App</h4>
+                        <div class="title" onclick="list_dropdown_f(this)"><i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                    </div>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/ysjJlvQ3FFc?si=MpFFi9tpuOl35v1O', 'NodeJS là gì? Tại sao phải sử dụng NodeJS?')">22. NodeJS là gì? Tại sao phải sử dụng
+                                NodeJS?</a><span>11:39</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/6qRyEeCDJ2g?si=IluBveHkz-3McwVu', 'Lưu ý: Sử dụng React & React-DOM 17 ở bài sau')">23. Lưu ý: Sử dụng React & React-DOM 17 ở bài
+                                sau</a><span>02:13</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/61EBe-l1E3pM?si=uhSAlTQDeyzE6upn', 'Tạo dự án với React + Webpack')">24. Tạo dự án với React + Webpack</a><span>31:15</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/okMA31wi-yg?si=fGlRDilQLhm7xLmc', 'Nâng cấp React & ReactDOM lên 18')">25. Nâng cấp React & ReactDOM lên
+                                18</a><span>04:19</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/gA3rFa6uu14?si=UV7Z0Eb6EHh7fjYC', 'Tạo dự án với create-react-app')">26. Tạo dự án với create-react-app</a><span>14:13</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/7sX_8lKURqo?si=3hYEm65YnqojoLFb', 'NPM, NPX và YARN là gì?')">27. NPM, NPX và YARN là gì?</a><span>31:31</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, '-Ka_3RkQAvk', 'CRA Folder Structure')">28. CRA Folder Structure</a><span>12:37</span></li>
+                    </ul>
+
+                    <div class="list_title">
+                        <h4>6. Hooks</h4>
+                        <div class="title" onclick="list_dropdown_f(this)"><i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                    </div>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/5ismRwx4ebM?si=rbFg4O285LDHqL24', 'Hooks là gì?')">29. Hooks là gì?</a><span>12:31</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/rIaFc5MLCcs?si=Q8pl2U20CJ4VbLl3', 'useState hook')">30. useState hook</a><span>19:51</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/CVaEWBFpxhc?si=cIOE0GsA-3bJOBNs', 'Two-way binding trong React?')">31. Two-way binding trong React?</a><span>28:07</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/bpVFSiNsFHY?si=io9NN54hdv8O_Rkq', 'Todolist with useState')">32. Todolist with useState</a><span>15:08</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/ELMyJQNxy50?si=NCJvN_0OUsBpwZHE', 'Mounted & Unmounted?')">33. Mounted & Unmounted?</a><span>05:37</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/hjIxfXKmkjk?si=dQDeR7SofuMpLMUb', 'useEffect hook')">34. useEffect hook</a><span>24:50</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/OOt2VRa1Oeg?si=5EBzt8Ti2mzgB3t7', 'useEffect with dependencies')">35. useEffect with dependencies</a><span>13:03</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/xZcWHaGsKUQ?si=C-8s13ywRknxgOhe', 'useEffect with DOM events')">36. useEffect with DOM events</a><span>16:39</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/zGNOhVjrWFw?si=wD66wbe6tSvThPi5', 'useEffect with timer functions')">37. useEffect with timer functions</a><span>09:03</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/Fnb3GbY9FUY?si=rC8NqkY5TdzL3qYR', 'useEffect with preview avatar')">38. useEffect with preview avatar</a><span>12:31</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/eFrgfL3O_UQ?si=ImoHub_pWX5HUGR1', 'useEffect with fake Chat App')">39. useEffect with fake Chat App</a><span>18:46</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/loSqbCbH2xo?si=2j6Wnn9ARjAreywY', 'useLayoutEffect hook')">40. useLayoutEffect hook</a><span>08:45</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/qr1dQqRJRNo?si=Pb-1xXk0rrz1oTof', 'useRef hook')">41. useRef hook</a><span>17:35</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/pPoKG_l3UFQ?si=G8-Nip30p4DJPwkZ', 'React.memo HOC')">42. React.memo HOC</a><span>11:00</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, '_aiLvBnYwnA', 'useCallback hook')">43. useCallback hook</a><span>10:12</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/TGaxZyZzB7E?si=UijTzzBjkuTOcBIs', 'useMemo hook')">44. useMemo hook</a><span>11:06</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/yn-8PVKBBn0?si=VyYN08W9AxVPmhWv', 'useReducer hook')">45. useReducer hook</a><span>15:58</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/p54lj4vM_LA?si=4_xoSeg9l-0qGwtU', 'Todo App with useReducer hook')">46. Todo App with useReducer hook</a><span>21:35</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/vzbW1TMXlZo?si=BZt8QrDzvqfze_LH', 'useReducer recap')">47. useReducer recap</a><span>18:18</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/TENin-HxvRg?si=FoUQ-Jg7OJADsdFE', 'useContext hook')">48. useContext hook</a><span>18:52</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/GE4jeED9B1s?si=t0CK9xF5LcUeEVi5', 'Context + useReducer')">49. Context + useReducer</a><span>28:54</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/dSzf0nv6QmM?si=wudP8VdeYul7yXvS', 'useImperativeHandle hook')">50. useImperativeHandle hook</a><span>16:45</span></li>
+                    </ul>
+
+                    <div class="list_title">
+                        <h4>7. CSS, SCSS và CSS modules</h4>
+                        <div class="title" onclick="list_dropdown_f(this)"><i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/R-u87c1jQ-M?si=N-6hV6S1cT8hS-Vv', 'Sử dụng CSS')">51. Sử dụng CSS</a> <span>12:17</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/P-Y3oDnj3OQ?si=Wp3n6X5fD8eL-h4M', 'CSS module')">52. CSS module</a> <span>14:51</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/n49i6y63s1w?si=J8mH0B8gqgUeYw5x', 'Thư viện clsx và classnames')">53. Thư viện clsx và classnames</a> <span>12:12</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/tS4i8NqC1sY?si=G-L3Z9V2l1d2mR5s', 'Install SASS để dùng SCSS?')">54. Install SASS để dùng SCSS?</a> <span>05:23</span>
+                        </li>
+                    </ul>
+
+
+                    <div class="list_title">
+                        <h4>8. React Router V6</h4>
+                        <div class="title" onclick="list_dropdown_f(this)"><i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                    </div>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/X9fD8D-4RGY?si=J0Q8F8iYvV3pG8sP', 'Cài đặt và tạo router')">55. Cài đặt và tạo router</a><span>15:07</span></li>
+                    </ul>
+
+                    <div class="list_title">
+                        <h4>9. Dựng base dự án Tiktok</h4>
+                        <div class="title" onclick="list_dropdown_f(this)"><i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                    </div>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/n4p_f2jK2Wk?si=pXj3wYc4qV6R_tM8', 'Giới thiệu dự án Tiktok')">56. Giới thiệu dự án Tiktok</a><span>04:07</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/J7d12rIuRGo?si=L-i3j_n9kPzS_J8l', 'Tạo dự án và đẩy lên Github')">57. Tạo dự án và đẩy lên Github</a><span>10:22</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/xS8pB4G56r0?si=N-zYv8K8fJm-K2Hq', 'Cài đặt customize-cra')">58. Cài đặt customize-cra</a><span>06:43</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/rV3K-w-8S-Y?si=g7zM_1L5e5-B33-Q', 'Cài đặt babel-plugin-module-resolver')">59. Cài đặt
+                                babel-plugin-module-resolver</a><span>19:29</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/eX5bE5eKkG0?si=9ZUug_C9j0tFiOER', 'Cài đặt và cấu hình Prettier')">60. Cài đặt và cấu hình Prettier</a><span>08:18</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/Fw0s14s9k6o?si=B5aB9T2M1D7yY2M1', 'Cấu hình sử dụng CSS/SASS')">61. Cấu hình sử dụng CSS/SASS</a><span>13:59</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/Yp9TjT8Jd1E?si=B0aY0Q7k8N0vB8N0', 'Cấu hình Router/Layout cho dự án')">62. Cấu hình Router/Layout cho dự
+                                án</a><span>37:15</span></li>
+                    </ul>
+
+                    <div class="list_title">
+                        <h4>10. Xây dựng phần Header</h4>
+                        <div class="title" onclick="list_dropdown_f(this)"><i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                    </div>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/S49d1mP6B-0?si=4wQh7H-X5yUeQ0pP', 'Dựng khung Layout mặc định')">63. Dựng khung Layout mặc định</a><span>23:02</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/jQ3d-5r6W3k?si=Uv8n9v3Tf2q0aJ4i', 'Xây dựng UI phần Header #1')">64. Xây dựng UI phần Header #1</a><span>58:52</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/5U7z0F4f7qM?si=G-L3Z9V2l1d2mR5s', 'Xây dựng UI phần Header #2')">65. Xây dựng UI phần Header #2</a><span>44:09</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/9zP0W-D4w38?si=pXj3wYc4qV6R_tM8', 'Xây dựng UI phần Header #3')">66. Xây dựng UI phần Header #3</a><span>55:12</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/W9JmP25hX9Y?si=J0Q8F8iYvV3pG8sP', 'Xây dựng UI phần Header #4')">67. Xây dựng UI phần Header #4</a><span>42:27</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/w8gQ9_G8BwE?si=N-zYv8K8fJm-K2Hq', 'Xây dựng UI phần Header #5')">68. Xây dựng UI phần Header #5</a><span>35:37</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/q4q_3N4yD2k?si=g7zM_1L5e5-B33-Q', 'Xây dựng UI phần Header #6')">69. Xây dựng UI phần Header #6</a><span>38:25</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/BwD0z00J97k?si=B5aB9T2M1D7yY2M1', 'Xây dựng UI phần Header #7')">70. Xây dựng UI phần Header #7</a><span>34:24</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/g2f_BvK0S-A?si=B0aY0Q7k8N0vB8N0', 'Xây dựng Logic phần Header #1')">71. Xây dựng Logic phần Header #1</a><span>30:38</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/S23S54L4o5E?si=N-6hV6S1cT8hS-Vv', 'Xây dựng Logic phần Header #2')">72. Xây dựng Logic phần Header #2</a><span>38:06</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/G_b-Q_b-gXo?si=Wp3n6X5fD8eL-h4M', 'Xây dựng Logic phần Header #3')">73. Xây dựng Logic phần Header #3</a><span>15:01</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/Xq-d6mF8qG4?si=J8mH0B8gqgUeYw5x', 'Tìm hiểu và sử dụng thư viện Axios')">74. Tìm hiểu và sử dụng thư viện
+                                Axios</a><span>36:28</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/8F2M-z-lY1w?si=G-L3Z9V2l1d2mR5s', 'Sửa lỗi và hoàn thiện phần Header #1')">75. Sửa lỗi và hoàn thiện phần Header
+                                #1</a><span>26:53</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/g6F1zS2z2vM?si=Uv8n9v3Tf2q0aJ4i', 'Sửa lỗi và hoàn thiện phần Header #2')">76. Sửa lỗi và hoàn thiện phần Header
+                                #2</a><span>35:56</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/Xq-d6mF8qG4?si=pXj3wYc4qV6R_tM8', 'Tái cấu trúc và tối ưu code #1')">77. Tái cấu trúc và tối ưu code #1</a><span>28:59</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/9zP0W-D4w38?si=L-i3j_n9kPzS_J8l', 'Tìm hiểu thư viện PropTypes')">78. Tìm hiểu thư viện PropTypes</a><span>14:58</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/W9JmP25hX9Y?si=N-zYv8K8fJm-K2Hq', 'Áp dụng PropTypes vào dự án')">79. Áp dụng PropTypes vào dự án</a><span>21:09</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/w8gQ9_G8BwE?si=g7zM_1L5e5-B33-Q', 'Giải quyết vấn đề nhiều file index.js')">80. Giải quyết vấn đề nhiều file
+                                index.js</a><span>12:40</span></li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/q4q_3N4yD2k?si=9ZUug_C9j0tFiOER', 'Tối ưu Header phần cuối')">81. Tối ưu Header phần cuối</a><span>26:09</span></li>
+                    </ul>
+
+                    <div class="list_title">
+                        <h4>11. Xây dựng phần Sidebar</h4>
+                        <div class="title" onclick="list_dropdown_f(this)"><i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                    </div>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/BwD0z00J97k?si=B5aB9T2M1D7yY2M1', 'Xây dựng UI phần sidebar #1')">82. Xây dựng UI phần sidebar #1</a><span>48:36</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/g2f_BvK0S-A?si=B0aY0Q7k8N0vB8N0', 'Xây dựng UI phần sidebar #2')">83. Xây dựng UI phần sidebar #2</a><span>36:21</span>
+                        </li>
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/S23S54L4o5E?si=N-6hV6S1cT8hS-Vv', 'Xây dựng UI phần sidebar #3')">84. Xây dựng UI phần sidebar #3</a><span>42:12</span>
+                        </li>
+                    </ul>
+
+                    <div class="list_title">
+                        <h4>12. Deploy dự án Tiktok</h4>
+                        <div class="title" onclick="list_dropdown_f(this)"><i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                    </div>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="thayNoiDung(event, 'https://www.youtube.com/embed/G_b-Q_b-gXo?si=Wp3n6X5fD8eL-h4M', 'Deploy dự án lên Vercel')">85. Deploy dự án lên Vercel</a><span>00:06</span></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="scrip.js"></script>
+</body>
+
+</html>
